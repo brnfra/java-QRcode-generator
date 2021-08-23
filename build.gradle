@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.brnfra'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // https://mvnrepository.com/artifact/com.google.zxing/core
+    implementation group: 'com.google.zxing', name: 'core', version: '3.4.1'
+    // https://mvnrepository.com/artifact/com.google.zxing/javase
+    implementation group: 'com.google.zxing', name: 'javase', version: '3.4.1'
+
+}
+
+test {
+    useJUnitPlatform()
+}

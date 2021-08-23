@@ -20,7 +20,7 @@ public class BrnfraQRCodeGenerator {
 
         String filePath = "myFirstQRCOde.png";
         File qrFile = new File(filePath);
-        String qrCodeText = "https://github.com/brnfra";
+        String qrCodeText = "https://github.com/brnfra/java-QRcode-generator";
         int size = 125;
         String fileType = "png";
         createQRImage(qrFile, qrCodeText, size, fileType);
@@ -64,4 +64,6 @@ public class BrnfraQRCodeGenerator {
         ImageIO.write(image, fileType, qrFile);
 
     }
+    //TODO
+    //reader
 }

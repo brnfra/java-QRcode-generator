@@ -11,6 +11,6 @@
 
 Clone the repository on your project folder
 
-    ``` git clone https://github.com/brnfra/java-QRcode-generator```
+    git clone https://github.com/brnfra/java-QRcode-generator
 
 **Important**: Check the dependencies, this project was make with **gradle** manager.
